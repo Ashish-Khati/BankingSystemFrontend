@@ -2,7 +2,7 @@ import React from 'react'
 import {useEffect, useState} from "react";
 import axios from "axios";
 import { Action,Nav,Contact } from "../components";
-import { BASE_URL } from '../data';
+import { BASE_URL } from '../../data';
 // import {Link} from 'react-router-dom'
 // import axios from "axios";
 
