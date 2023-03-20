@@ -6,7 +6,7 @@ import {FaMoneyBillAlt} from 'react-icons/fa'
 import {BsBank} from 'react-icons/bs';
 import { useState} from 'react';
 import axios from 'axios';
-import { BASE_URL } from '../../data';
+import { BASE_URL } from '../data';
 
 
 

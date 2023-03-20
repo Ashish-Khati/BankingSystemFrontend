@@ -7,8 +7,8 @@ import {Link} from 'react-router-dom'
 const AboutMe = () => {
   return (
     
-   <div className="w-screen  m-auto px-10 py-10 ">
-     <div className='md:flex bg-gray-100 max-w-auto md:w-[60%] shadow-2xl  items-center  px-20 py-20 rounded-xl '>
+   <div className="w-full  m-auto px-10 py-10 ">
+     <div className='md:flex bg-gray-100 w-auto shadow-2xl  items-center  px-20 py-20 rounded-xl '>
       <div className='mr-8 '>
         <div className='w-[300px] h-[450px] bg-[#8ab4f8] font-[Montserrat] rounded-xl relative items-center m-auto text-center'>
           <img src={am} alt="" className='absolute rounded-full -top-10 left-20' />
@@ -17,7 +17,7 @@ const AboutMe = () => {
             <h2 className='font-semibold text-xl'>HELLO, I'M
             <br />  ASHISH KHATI
             </h2>
-            <p className='pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione repellendus nam officia. Natus placeat magni quisquam eum cupiditate sed.</p>
+            <p className='pt-4'>I'm Web Development and Designing Intern at The Sparks Foundation</p>
             </div>
             <div className='flex space-x-1 rounded-full text-black w-auto  absolute bottom-10 left-10 h-10'>
               <Link to='https://www.linkedin.com/in/ashish-khati-30a5161a1/' className='text-black hover:text-white'><CiLinkedin className=' w-[50px] h-[30px] bg-[#8ab4f8] cursor-pointer' /></Link>

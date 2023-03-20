@@ -18,6 +18,7 @@ const Header = () => {
          spy={true}>About Us</a></li>
             <li><a className='text-white hover:text-red-500' href="#services">Service</a></li>
             <li><a className='text-white hover:text-red-500' href="#contact">Contact</a></li>
+            <li><a className='text-white hover:text-red-500' href="https://www.thesparksfoundationsingapore.org/" target="_blank">TSF</a></li>
         </ul>
         <button className=' text-white rounded-lg hover:bg-green-500 lg:px-2 bg-green-400'><Link to='/openaccount' className='text-white hover:text-white'>Open Your Account</Link></button>
     </div>
