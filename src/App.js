@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import { Home,Customer,AboutMe,AccountOpen } from './pages'
+import { Home,Customer,AboutMe,AccountOpen,ContactMe } from './pages'
 const App = () => {
   return (
     <BrowserRouter>
@@ -14,6 +14,7 @@ const App = () => {
         <Route path="/viewcustomer" element={<Customer />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path='/openaccount' element={<AccountOpen/>}/>
+        <Route path='/contact' element={<ContactMe/>}/>
     </Routes>
     </BrowserRouter>
   )

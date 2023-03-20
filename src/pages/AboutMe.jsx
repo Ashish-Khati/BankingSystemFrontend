@@ -30,8 +30,8 @@ const AboutMe = () => {
       </div>
       <div className='mt-20'>
         <h1 className='mb-5'>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, officiis cupiditate modi pariatur ratione dolore non in, libero neque consequatur enim est amet nostrum tempora repudiandae nemo voluptatibus similique voluptates magni, voluptate nesciunt distinctio? Sequi et sunt, natus suscipit nisi, tenetur dolorum esse, error expedita fuga modi optio commodi nulla.</p>
-        <button className='bg-green-400 text-white cursor-pointer hover:bg-green-500 outline-none border mt-5'>Contact Me</button>
+        <p className=' w-[80%] md:w-[50%]'>I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!</p>
+        <button className='bg-green-400 text-white cursor-pointer hover:bg-green-500 outline-none border mt-5'><Link to="/contact" className='text-white hover:text-white'> Contact me</Link></button>
       </div>
     </div>
    </div>
